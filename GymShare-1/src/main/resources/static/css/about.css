@@ -1,0 +1,56 @@
+/*  families used..
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive;   
+                                   */
+
+/* google font import link .. */
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Righteous&display=swap');
+
+/* container common css */
+
+.p1{
+    margin-top: 0;
+    font-weight: bolder;
+    font-size: 46px;
+    font-family: 'Righteous', cursive; 
+    text-align: center; 
+}
+.p2{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center; 
+}
+.img img{
+   padding-left: 600px;
+}
+.p3{
+    text-align: center;
+    text-justify: inter-word; 
+    font-size: 20px;
+}
+.p4,.back{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.copyright{
+    display: flex;
+   /* padding-left: 640px;*/
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    
+}
+.icon{ /*
+    padding-left: 580px; */  
+    letter-spacing: 7px;
+    display: flex;
+    justify-content: center;
+}
+.p5{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}

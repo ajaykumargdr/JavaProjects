@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- title -->
+
+    <link rel="icon" type="image/x-icon" href="/images/LOGO/img1-modified.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Gymshare : booking</title>
+
+    <!--bootstrap cdn  -->
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <!-- custom css -->
+
+   <link rel="stylesheet" href="/css/login.css">
+
+</head>
+<body>
+
+
+
+
+<div class="banner">
+	
+    <div class="lefticon">
+        <a href="landing">
+            <i class="bi bi-arrow-left" style="color: white;"></i>
+        </a>
+    </div>
+
+<form action="bookUser">
+    <div class="login-box">
+        <h1>BOOKING</h1>
+
+      <!--  <div class="textbox">
+            <i class="bi bi-person"></i>
+            <input type="text" placeholder="name" name="" value="">
+        </div>
+
+        <div class="textbox">
+            <i class="bi bi-phone"></i>
+            <input type="number" placeholder="phone" name="" value="">
+        </div>
+	-->
+
+        <div class="textbox">
+
+            <i class="bi bi-files-alt"></i>
+            <label id="box2">Gym Name</label>
+        <select id="box1" style="color: #c5782b;font-weight: 600;" name="gymName">
+               
+              
+              <option value=""></option>  
+
+				<option value="A leo gym"> A leo gym</option>
+<option value="Anytime Fitness, Anna nagar"> Anytime Fitness, Anna nagar</option>
+<option value="Arnold Gym"> Arnold Gym</option>
+<option value="Arnold's Gym unisex Fitness Center"> Arnold's Gym unisex Fitness Center </option>
+<option value="Atelier's Fitness Velachery"> Atelier's Fitness Velachery </option>
+<option value="Avengers Fitness Studio"> Avengers Fitness Studio</option>
+<option value="BULLDOG GYM KARUR"> BULLDOG GYM KARUR</option>
+<option value="Cult Race Course Rd"> Cult Race Course Rd </option>
+<option value="Dabster Fitness Studio"> Dabster Fitness Studio</option>
+<option value="De Monk Fitness Studio"> De Monk Fitness Studio</option>
+<option value="Erode Fitness Studio"> Erode Fitness Studio</option>
+<option value="Ethis fitness center"> Ethis fitness center</option>
+<option value="Endura Fitness Studio - Male/Female A/C Gym"> Endura Fitness Studio - Male/Female A/C Gym</option>
+<option value="Endurancee Gym and Fitness Centre"> Endurancee Gym and Fitness Centre</option>
+<option value="F7 HUB"> F7 HUB</option>
+<option value="Fit & gain fitness center"> Fit & gain fitness center </option>
+<option value="Fit X Unisex Fitness Studio - A/C Gym"> Fit X Unisex Fitness Studio - A/C Gym</option>
+<option value="Fitness 3 Gym"> Fitness 3 Gym</option>
+<option value="Fitness Freak Gym"> Fitness Freak Gym</option>
+<option value="Fitness One ( Annanagar, Ashok Nagar)"> Fitness One ( Annanagar, Ashok Nagar) </option>
+<option value="Fitness Park Gym"> Fitness Park Gym</option>
+<option value="Flex Gym Gudalur"> Flex Gym Gudalur</option>
+<option value="Flux Fitness ( Adyar )"> Flux Fitness ( Adyar )</option>
+<option value="Friends Gym"> Friends Gym</option>
+<option value="GOLD'Z GYM"> GOLD'Z GYM</option>
+<option value="GOLDEN GYM & FITNESS ZONE"> GOLDEN GYM & FITNESS ZONE</option>
+<option value="Gold's Gym, Adayar"> Gold's Gym, Adayar</option>
+<option value="Goals Fitness Center Karur"> Goals Fitness Center Karur</option>
+<option value="IRON MAN FITNESS & GYM"> IRON MAN FITNESS & GYM</option>
+<option value="I Fitness"> I Fitness </option>
+<option value="JP gym"> JP gym</option>
+<option value="KARUR FITNESS STUDIO"> KARUR FITNESS STUDIO</option>
+<option value="MAK 2 GYM"> MAK 2 GYM</option>
+<option value="Mass Gym"> Mass Gym</option>
+<option value="Mass World class Fitness Gym"> Mass World class Fitness Gym</option>
+<option value="Masters gym"> Masters gym</option>
+<option value="Mirza"> Mirza</option>
+<option value="Muscle Magic (Unisex Fitness Centre)"> Muscle Magic (Unisex Fitness Centre)</option>
+<option value="NRS Gym And Fitness Centre"> NRS Gym And Fitness Centre</option>
+<option value="New Rambo Gym"> New Rambo Gym</option>
+<option value="O2 Health Studio ( Nungambakkam )"> O2 Health Studio ( Nungambakkam )</option>
+<option value="Olympia Fitness Gym"> Olympia Fitness Gym</option>
+<option value="Olympia Gym"> Olympia Gym</option> 
+<option value="Pink Fitness - Ladies Gym Crosscut Road"> Pink Fitness - Ladies Gym Crosscut Road</option>
+<option value="Pink Fitness - Ladies Gym Karu"> Pink Fitness - Ladies Gym Karu</option>
+<option value="Pink Fitness - Ladies Gym Karur"> Pink Fitness - Ladies Gym Karur</option>
+<option value="Prozone Fitness Studio"> Prozone Fitness Studio</option>
+<option value="RMK GYM"> RMK GYM </option>
+<option value="RAW 1 FITNESS"> RAW 1 FITNESS</option>
+<option value="REAL VALUE FITNESS"> REAL VALUE FITNESS</option>
+<option value="S Master Fitness &amp; Gym (AC)"> S Master Fitness & Gym (AC)</option> 
+<option value="SLAM style and Fitness Studio, Nandanam"> SLAM style and Fitness Studio, Nandanam </option>
+<option value="Slam Lifestyle And Fitness Studio (ERODE)"> Slam Lifestyle And Fitness Studio (ERODE)</option>
+<option value="Sai maruthi Gym Guduvancheri"> Sai maruthi Gym Guduvancheri</option>
+<option value="Sen Fitness, T Nagar"> Sen Fitness, T Nagar </option>
+<option value="Silver Gym &amp; Fitness Centre TN-31"> Silver Gym & Fitness Centre TN-31</option>
+<option value="Sams Gym"> Sams Gym</option>
+<option value="STRONG FITNESS CLUB (unisex Gym)A/C"> STRONG FITNESS CLUB (unisex Gym)A/C</option>
+<option value="Talwalkers Inshape( Kilpauk )"> Talwalkers Inshape( Kilpauk )</option>
+<option value="Toneez Fitness Centre, Iyyapanthangal"> Toneez Fitness Centre, Iyyapanthangal</option>
+<option value="The Royal Fitness Club"> The Royal Fitness Club</option>
+<option value="The energy fitness studio gym A/C (unisex)"> The energy fitness studio gym A/C (unisex)</option>
+<option value="The Key2fitness"> The Key2fitness</option>
+<option value="The Signature Fitness Club (TSFC)"> The Signature Fitness Club (TSFC)</option>
+<option value="Unique Gym"> Unique Gym</option>
+<option value="WARRIOR ZONE GYM &amp; FITNESS"> WARRIOR ZONE GYM & FITNESS </option>
+			
+            </select>
+
+        </div>
+        
+        
+        <div class="textbox">
+
+            <i class="bi bi-files-alt"></i>
+            <label id="box2">Packages</label>
+            <select id="box1" style="color: #c5782b;font-weight: 600;" name="gymPackage" >
+              <option value=""></option>  
+              <option value="weekly">weekly</option>
+              <option value="monthly">monthly</option>
+              <option value="yearly">yearly</option>
+            </select>
+
+        </div>
+        
+        <div class="textbox">
+            <i class="bi bi-calendar"></i>
+            <input type="number" placeholder="day prefrence" name="dayPreference" value="">
+        </div>
+        
+        <br>
+
+        <div>
+            <input class="btn3" type="submit" name="" value="BOOK">
+        </div>
+
+<br>
+
+</div>
+   
+   </form>
+   
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+	
+</body>
+</html>
