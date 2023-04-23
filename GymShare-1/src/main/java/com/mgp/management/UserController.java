@@ -64,14 +64,7 @@ public class UserController {
 	
 	@GetMapping("/registerNewUser")
 	public ModelAndView registerNewUser(@RequestParam("conform-password")String cpwd, User user) {
-		
-		
-		
-		/// check is it already exist or not
-				//	if(user.getUserId() !="") { System.out.println("I'm still here");
-			
-			/////////////////////// send this message to front end
-			// and also data which we have got (user)
+
 	
 			User model = userService.getUser(user);
 			
@@ -121,16 +114,8 @@ public class UserController {
 		customer.setUserId(currentUser.getUserId());
 		customer.setPhone(currentUser.getPhone());
 		customer.setName(currentUser.getName());
-		
-		
-		////
-		
-		
+
 		customerService.saveCustomer(customer);
-		
-		
-		////
-		
 		
 		return "Gymshare/landing";
 	}
@@ -356,65 +341,6 @@ public class UserController {
 	}
 	
 	/////////////////////////////////////////////////////////////////////////////////////////////////
-	
-	
-	// Handler method (CRUD testing)
-	
-	@GetMapping("/index")
-	public String index() {		
-		return "index";
-	}
-	
-	@GetMapping("/addUser")
-	public String addUser(User model) {
-		
-		userService.saveUser(model);
-		return "index";
-	}
-	
-	@GetMapping("/showUser")
-	public ModelAndView showUser(User user){
-		
-		User model = userService.getUser(user);
-		
-		
-		boolean pwd = user.getPassword().equals(model.getPassword());
-		
-		if(model == null || !pwd) {
-			System.out.println( model==null?"User Does not Exist":"User Id or Password Error" );
-			return new ModelAndView("index");
-		}
-				
-		// model & view					// passing view
-		ModelAndView mav = new ModelAndView("showUser");
-		
-				
-		// model
-//		User model = userService.getUser(userid);
-		
-//		// model into mdv
-//		// you should give it a name
-//		 
-		mav.addObject("model1",model);
-		
-		
-		return mav;
-	}
-	
-	@GetMapping("/updateUser")
-	public String updateUser(@RequestParam("userId")String userId) {
-		
-		deleteUser(userId);		
-		return "updateUser";
-	}
-	
-	@GetMapping("/deleteUser")
-	public String deleteUser(@RequestParam("userId") String userID) {
-		
-		userService.deleteUser(userID);		
-		return "index";
-	}
-	
-	
+
 	
 }
