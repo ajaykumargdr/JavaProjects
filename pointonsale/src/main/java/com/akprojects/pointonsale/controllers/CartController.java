@@ -60,24 +60,10 @@ public class CartController {
 		giftwrap.add(aGiftwrap);
 		giftwrap.add(bGiftwrap);
 		giftwrap.add(cGiftwrap);
-		
-//		Cart cart = new Cart();
-		
 		// modify this to change charges
 		PointonSaleCalculator pos = new PointonSaleCalculator(products, prices, quantities,giftwrap);
-		
-		
 		ModelAndView mdv = new ModelAndView("ZenShop/billing");
-		mdv.addObject("pos",pos);
-		
-		
-		/////////////////////////
-		
-		
-		
-		//////////////////////////
-		
-		
+		mdv.addObject("pos",pos);		
 		return mdv;
 	}
 	
