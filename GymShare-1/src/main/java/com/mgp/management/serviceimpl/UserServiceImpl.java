@@ -1,8 +1,12 @@
-package com.mgp.management;
+package com.mgp.management.serviceimpl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+
+import com.mgp.management.model.User;
+import com.mgp.management.repository.UserRepository;
+import com.mgp.management.service.UserService;
 
 // User Service Implementation
 @Service

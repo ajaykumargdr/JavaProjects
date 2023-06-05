@@ -1,4 +1,4 @@
-package com.mgp.management;
+package com.mgp.management.model;
 
 import jakarta.persistence.*;
 //import jakarta.persistence.Entity;

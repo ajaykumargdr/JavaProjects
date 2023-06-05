@@ -1,8 +1,12 @@
-package com.mgp.management;
+package com.mgp.management.serviceimpl;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+
+import com.mgp.management.model.Customer;
+import com.mgp.management.repository.CustomerRepository;
+import com.mgp.management.service.CustomerService;
 
 @Service
 public class CustomerServiceImpl implements CustomerService{

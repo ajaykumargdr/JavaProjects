@@ -1,6 +1,8 @@
-package com.mgp.management;
+package com.mgp.management.service;
 
 import java.util.List;
+
+import com.mgp.management.model.User;
 
 public interface UserService {
 	List<User> getAllUsers();
