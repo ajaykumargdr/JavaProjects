@@ -1,0 +1,169 @@
+‎Saturday, ‎November ‎26, ‎2022, ‏‎4:55:04 PM
+About site:-
+-------------
+* we just show them the details about various work places
+* we will make them a way to pay the fee using the web/app
+
+* --- available plans
+* --- contact details
+* --- payment methods available
+* --- available time
+* --- address
+* --- gMap langT-latT OR embeded link
+* --- star value
+* --- trainer availability
+
+Development:- *****
+----------------
+
+Future plans:-
+----------------
+	* dark mode
+	* sorting according to the user exp
+	* any games
+	* poping up icons
+	* nearest gym even from another district
+	* Storing users data (timing, using trainers help, rate range(affordability), )
+	* Making the project Open Source
+	* Commmunity tab and Discord page
+	* Integrating calories calculation application
+	* User feedback:
+	* Fitness book store********
+
+Content Updation:-
+---------------------
+* Go to google mapes and find the contact numbers of the owner
+	* contact them text them view any media 
+	* tell them about your idea and ask them about one day fee
+
+OR 
+	* Go to different places like a tour and visit all work places
+	* Do enquiry about the one day fee
+
+Payment:-
+------------
+	* no prepaid.. 
+	* just a day by day booking 
+	* Give them a option to books the work place for several weeks/ several months with discount
+
+Catagories:-
+-------------
+	* Catagoraise the work places by quality
+	* Catagoraise by near by places (Not possible in simple project add it in feature)
+
+Hot & Cold place:- (Predict these things by enquiring the owners)
+---------------------
+	* Hot - At this time this place may have more croud
+	* Cold - At this time this place may have less croud
+
+Conformstion:-
+----------------
+	* sent a otp/ qr code to the client 
+	* owner can scan it to verify him (feature plans)
+
+Offers:-
+---------
+	* Offers to schools students
+	* offers to second time visitors
+
+Style:- 1:24 PM 01-Dec-22
+--------
+	* Tile type informations share
+	* which means each places are represented in a tile
+	* like a library
+	* within the 'PLACE' tile other sub tile will be shared
+	* TN - > Nilgiri 		-> Gudalur 	-> G1
+						-> G2
+						-> G3
+				-> Ooty
+				-> Kunnor
+				-> ect
+	       - > Coimbatore	
+	       - > Chennai
+	       - >  ect
+
+
+ Spotters like uber drivers
+ The client can book a spotter
+ Spotter will get fee for that
+ But make sure the spotter is fulfilled and satisfied with what he will get
+
+
+Availability plan:-
+-----------------------
+	* If they doesn't allowing weekly plans for travellers we should inform it in the map
+	* thet there is no availability for those peoples in that place
+	* Sort the workplaces according to this 
+
+Addons:-
+-----------
+	* workout instructions
+	* best suppliment adds
+
+
+------------------------------------------------------------------
+
+
+
+- > User Register (if they want to apply for that center) (1time process)  
+-> Then get the particular gym's details 
+	1) -> Add both and store it in db
+	   
+ -> then admin manage
+
+->OR
+	2) -> Sent the Details to particular gym's email 
+
+( -> If there is Email id available then post confirmation message 
+ -> else wait for admin responce)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

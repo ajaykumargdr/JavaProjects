@@ -1,0 +1,98 @@
+/*  families used..
+
+font-family: 'Paytone One', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive; 
+                                   */
+
+/* google font import link .. */
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@300;400;500&family=Righteous&display=swap');
+
+/* common css */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #eeeff4;
+}
+
+.wrapper .header {
+width: 100%; height: 50px;
+background-image: linear-gradient(to right,#483C32 , #c5782b);
+color: #ffff;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+text-transform: uppercase;
+letter-spacing: 5px;
+font-weight:900;
+}
+.h1 h1{
+    font-family: 'Righteous', cursive;
+    border-color:#80461B;
+}
+h2{
+background:linear-gradient(90deg,#483C32 , #c5782b);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.wrapper .logo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%; height: 50px;
+    display: flex;
+}
+.back{
+    margin-top: 12px;
+    margin-right: 15px;
+}
+.back a{
+    text-decoration: none;
+    color: darkgrey;
+    transition: 0.5s;
+}
+.back a:hover{
+    text-decoration: none;
+    color: #36454F;
+}
+.logo img{
+    margin-left: 15px;
+}
+.row{
+    padding: 10px;
+}
+
+#tile{
+    padding-bottom: 10px;
+}
+
+/* footer */
+
+.p4{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.copyright{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.icon{
+    padding-left: 580px;
+    letter-spacing: 7px;
+    display: flex;
+}
+.p5{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+}
